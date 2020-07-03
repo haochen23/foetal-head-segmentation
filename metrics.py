@@ -1,4 +1,6 @@
 import config
+from tensorflow.keras import backend as K
+K.set_image_data_format('channels_last')
 smooth = config.smooth
 
 # define loss function and metrics

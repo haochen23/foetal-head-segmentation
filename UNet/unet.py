@@ -6,6 +6,8 @@ from tensorflow.keras.layers import MaxPooling2D
 from tensorflow.keras.layers import concatenate
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
+from tensorflow.keras import backend as K
+K.set_image_data_format('channels_last')
 
 # define building blocks
 def BatchActivate(x):
