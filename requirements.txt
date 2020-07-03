@@ -1,0 +1,7 @@
+pandas
+numpy
+python-opencv
+skimage
+scikit-learn
+tensorflow==2.2.0
+pillow
