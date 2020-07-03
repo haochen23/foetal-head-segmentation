@@ -1,5 +1,5 @@
-PATH_TRAIN = "foetal-head-us/train/"
-PATH_TEST = "foetal-head-us/test/"
+PATH_TRAIN = "../foetal-head-us/train/"
+PATH_TEST = "../foetal-head-us/test/"
 
 
 # set target image size

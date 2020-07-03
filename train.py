@@ -119,7 +119,7 @@ if __name__ == "__main__":
     augmentation(train_image, train_mask)
     
     #split training data
-    X_train, X_val, y_train, y_val = train_test_split(train_img_aug, train_mask_aug, test_size = 0.3, random_state = 1)
+    X_train, X_val, y_train, y_val = train_test_split(train_img_aug, train_mask_aug, test_size = 0.2, random_state = 1)
 
     # set training parameters
     epochs = 50
