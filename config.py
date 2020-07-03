@@ -11,3 +11,5 @@ batch_size = 16
 
 #division smooth
 smooth = 1.
+
+best_model_path = "best_model_224_res.h5"

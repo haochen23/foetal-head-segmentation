@@ -135,7 +135,7 @@ if __name__ == "__main__":
     output_layer = build_model(inputs, 16, 0.5)
 
     # Define callbacks to save model with best val_dice_coef
-    checkpointer = ModelCheckpoint(filepath = 'best_model_224_res.h5', monitor='val_dice_coef', verbose=1, save_best_only=True, mode='max')
+    checkpointer = ModelCheckpoint(filepath = config.best_model_path, monitor='val_dice_coef', verbose=1, save_best_only=True, mode='max')
     model = Model(inputs=[inputs], outputs=[output_layer])
     model.compile(optimizer=Adam(lr = 3e-5), loss=dice_coef_loss, metrics=[dice_coef])
     
