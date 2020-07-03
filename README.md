@@ -22,3 +22,5 @@ Test the model on test set.
 ```
 python3 predict_test.py
 ```
+
+Code [demo](https://colab.research.google.com/drive/1ggBGlLxmy2UURSFxqMjwRXE52BXnY_t_?usp=sharing).
