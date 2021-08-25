@@ -3,5 +3,5 @@ numpy
 python-opencv
 skimage
 scikit-learn
-tensorflow==2.2.0
+tensorflow==2.5.1
 pillow
